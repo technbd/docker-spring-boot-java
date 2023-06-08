@@ -103,3 +103,9 @@ Check running containers with the following command;
 docker container ls
 ```
 
+Test the app:
+-------------------------
+```
+http://localhost/docker-java-app/test
+```
+
