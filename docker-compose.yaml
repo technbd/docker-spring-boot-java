@@ -1,0 +1,10 @@
+version: "2"
+services:
+  web:  #Container Service Name
+    build: .            #For Current DIR Dockerfile
+    #build: ./Dir_name   #For Parent  DIR Dockerfile
+    image: fnajmul/java-spring-boot
+    container_name: web1
+    ports:
+      - "8084:8080"
+
