@@ -3,8 +3,8 @@ services:
   web:  #Container Service Name
     build: .            #For Current DIR Dockerfile
     #build: ./Dir_name   #For Parent  DIR Dockerfile
-    image: fnajmul/java-spring-boot
-    container_name: web1
+    image: technbd/my-java-app
+    container_name: my-java-app
     ports:
       - "8084:8080"
 
